@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         CreditPaymentServise servise = new CreditPaymentServise();
         double pay = servise.calculate(1_000_000, 1);
@@ -11,6 +11,6 @@ public class Main {
         System.out.printf("Ежимесячный платёж на два года = %.0f", pay1);
         System.out.println();
         System.out.printf("Ежимесячный платёж на три года = %.0f", pay2);
-            }
-        }
+    }
+}
 
